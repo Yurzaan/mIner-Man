@@ -145,7 +145,7 @@ function Down() {
 }
 
 function Left() {
-    if (player_x >= 10) {
+    if (player_x >= 5) {
         player_x = player_x - block_image_width;
         canvas.remove(player_object);
         player_update();
